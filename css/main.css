@@ -20,6 +20,15 @@ div {
   color: #fff;
   text-decoration: none;
   border-radius: 8px;
+  margin: .2rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn-small {
+  font-size: .875rem;
 }
 
 .btn:hover {
@@ -38,6 +47,7 @@ div {
 .btn-ghost {
   background-color: #fff;
   color: #000;
+  border: 3px solid #000;
 }
 
 .btn-ghost:hover {
@@ -53,20 +63,4 @@ div {
 
 .btn-warning:hover {
   background-color: #933;
-}
-
-.btn-small {
-  font-size: .875rem;
-}
-
-.btn-small:hover {
-  background-color: #000;
-}
-
-.btn-big {
-  font-size: 1.5rem;
-}
-
-.btn-big:hover {
-  background-color: #000;
 }
